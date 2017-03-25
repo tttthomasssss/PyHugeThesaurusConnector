@@ -7,7 +7,7 @@
 
 ##Example Usage
 ```
->>> import pyhugeconnector
+>>> from pyhugeconnector import pyhugeconnector
 >>> pyhugeconnector.thesaurus_entry(
 		word='python', 
 		api_key='<YOUR-API-KEY>', 
@@ -15,7 +15,7 @@
 		ngram=2, 
 		relationship_type='syn'
 	)
-[u'disembodied spirit', u'mythical creature', u'mythical monster']
+['disembodied spirit', 'mythical creature', 'mythical monster']
 ```
 
 ##Notes
